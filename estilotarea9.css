@@ -1,0 +1,200 @@
+body {
+    width: 100%;
+    height: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/17/19/16/rush-1335365_960_720.jpg);
+    padding: 50px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+
+}
+#inicio {
+
+width: 100%;
+display: flex;
+flex-direction: column;
+height: auto;
+color: white;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#inicio p {
+    text-align: center;
+    column-count: 1;
+    text-align: start;
+    width: 50%;
+}
+#inicio button {
+    width: 200px;
+    height: 40px;
+    align-self: center;
+    background: #ccc;
+    color: #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#inicio button:hover {
+
+    background: rgb(24, 51, 23);
+    color: #fff;   
+}
+
+/****************************************** CREA ***************************************************/
+
+#crea {
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #F04656 ;
+    text-shadow: 5px 5px black;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#campo {
+    width: 74%;
+    height: 800px;
+    background-color: transparent;
+    background-image: url(juego.png);
+    background-size: cover;
+    display: flex;
+}
+
+ #arco {
+    width: 120px;
+    height: 35px;
+    margin-top: 400px;
+    margin-left: 10px;
+    position: relative;
+    background-color: transparent;
+} 
+#lateral_izq {
+    width: 120px;
+    height: 35px;
+    margin-top: 700px;
+    margin-left: 150px;
+    position: relative;
+    background-color: transparent;
+}
+
+#primer_central {
+    width: 120px;
+    height: 35px;
+    margin-top: 500px;
+    margin-left: -200px;
+    background-color: transparent;
+    position: relative;
+}
+#segundo_central {
+    width: 120px;
+    height: 35px;
+    margin-top: 300px;
+    margin-left: -150px;
+    background-color: transparent;
+    position: relative;
+}
+#lateral_derecho {
+    width: 120px;
+    height: 35px;
+    margin-top: 80px;
+    margin-left: -20px;
+    background-color: transparent;
+    position: relative;
+}
+#volante_izquierda{
+    width: 120px;
+    height: 35px;
+    margin-top: 700px;
+    background-color: transparent;
+    margin-left: 300px;
+    position: relative;
+}
+#volante_central{
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    margin-top: 400px;
+    margin-left: -200px;
+    position: relative;
+}
+
+#volante_derecho {
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    margin-top: 100px;
+    margin-left: -50px;
+    position: relative;
+}
+#elnumero10 {
+    width: 120px;
+    height: 35px;
+    margin-top: 400px;
+    background-color: transparent;
+    margin-left: 80px;
+    position: relative;
+}
+#delantero_prim {
+    width: 120px;
+    height: 35px;
+    margin-top: 250px;
+    background-color: transparent;
+    margin-left: 20px;
+    position: relative;
+}
+#delantero_seg {
+    width: 120px;
+    height: 35px;
+    margin-top: 500px;
+    margin-left: -80px;
+    background-color: transparent;
+    position: relative;
+}
+
+
+/****************************** LISTA DE NOMBRES ****************************/
+
+#jugadores {
+width: 20%;
+height: 500px;
+margin-top: -100px;
+padding: 0px;
+box-sizing: border-box;
+background-color: transparent;
+display: none;
+
+}
+
+#jugadores h1{
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    }
+    
+
+#jugadores ul  {
+    list-style-type: none;
+    }
+#jugadores ul  li{
+        margin-bottom: 10px;
+
+        }
+#jugadores ul  li input {
+    width: 80%;
+    height: 40px;
+}
+#jugadores ul  li button {
+    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+}
